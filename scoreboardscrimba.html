@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/scoreboard.css">
+    <link rel="icon" type="image/png" href="/images/ball.png" />
+    <title>ScoreBoard</title>
+</head>
+<body>
+    <div class="background-image">
+        <div  id="homeboard">
+            <h1>home</h1>
+             <h2 id="homescore">0</h2>
+             <button id="increment-btn-home3" onclick="homeincrement3()">3pts</button>
+             <button id="increment-btn-home2" onclick="homeincrement2()">2pts</button>
+             <button id="increment-btn-home1" onclick="homeincrement1()">1pts</button> 
+             <button id="reset-btn-home" onclick="resethome()">Reset</button>   
+        </div>
+        <div id="awayboard">
+            <h1>away</h1>
+            <h2 id="scoreaway">0</h2>
+            <button id="increment-btn-away3" onclick="awayincrement3()">3pts</button>
+            <button id="increment-btn-away2" onclick="awayincrement2()">2pts</button>
+            <button id="increment-btn-away1" onclick="awayincrement1()">1pts</button>
+            <button id="reset-btn-away" onclick="resetaway()">Reset</button>
+        </div>
+    </div>
+    <script src="/jsfolder/score.js"></script>
+</body>
+</html>
