@@ -3,7 +3,7 @@
     padding: 0%;
 }
 .background-image{
-    background-image: url(/images/bball.jfif);
+    background-image: url("scoreboardbg.jpg");
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-evenly;
